@@ -1,0 +1,90 @@
+﻿@model e_commerce1.Models.Producto
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Producto</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cantidad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cantidad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Precio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Precio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descripcion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Stock_Maximo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Stock_Maximo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Stock_Minimo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Stock_Minimo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Foto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Foto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Categoria.Descripcion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Categoria.Descripcion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Presentacion.Tipo_Presentacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Presentacion.Tipo_Presentacion)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
