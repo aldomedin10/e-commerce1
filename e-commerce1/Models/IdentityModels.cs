@@ -29,5 +29,7 @@ namespace e_commerce1.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<e_commerce1.Models.Ventas> Ventas { get; set; }
     }
 }
