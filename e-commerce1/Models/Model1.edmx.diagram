@@ -9,7 +9,7 @@
         <EntityTypeShape EntityType="e_tiendaModel.Presentacion" Width="1.5" PointX="0.75" PointY="6" IsExpanded="true" />
         <EntityTypeShape EntityType="e_tiendaModel.Producto" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
         <EntityTypeShape EntityType="e_tiendaModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="5.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="e_tiendaModel.Ventas" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="e_tiendaModel.Ventas" Width="1.5" PointX="6.25" PointY="1.25" IsExpanded="true" />
         <AssociationConnector Association="e_tiendaModel.FK_Producto_Categoria" ManuallyRouted="false" />
         <AssociationConnector Association="e_tiendaModel.FK_Producto_Presentacion" ManuallyRouted="false" />
         <AssociationConnector Association="e_tiendaModel.FK_Ventas_Producto" ManuallyRouted="false" />
